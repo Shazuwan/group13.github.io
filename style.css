@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.moew {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background: rgb(255, 255, 255);
+}
+.nav {
+    width: 80%;
+    position: sticky;
+    margin: 20px auto;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    flex-basis: 20%;
+    background: white;
+}
+.logo img {
+    width: 350px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.nav-links {
+    flex: 1;
+    text-align: center;
+    
+}
+.nav-links ul div {
+    list-style: none;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    margin: 15px 40px;
+    background: linear-gradient(rgb(109, 0, 0),rgb(209, 0, 0));
+    border-radius: 20px;
+    padding: 20px;
+}
+.box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(26, 26, 26);
+    padding-top: 5px;
+    margin-left: 550px;
+    margin-right: 550px;
+    border-radius: 20px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.nav-links ul div img {
+    width: 170px;
+}
+.nav-links ul div p {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.nav-links ul div span {
+    color: white;
+}
+.box::before {
+    content: '';
+    position: absolute;
+    width: 1000px;
+    height: 62px;
+    margin-left: -1px;
+    margin-top: -5px;
+    background: linear-gradient(rgb(124, 0, 0),red);
+    animation: animate 3s linear infinite;
+}
+.box::after {
+    content: '';
+    position: absolute;
+    inset: 4px;
+    background-color: rgb(26, 26, 26);
+}
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.box h1 {
+    font-size: 45px;
+    color: white;
+    position: relative;
+    z-index: 10;
+    font-weight: bold;
+}
+.boxx {
+    background-color: rgb(26, 26, 26);
+    padding-left: 190px;
+    padding-top: -4px;
+    margin-right: 250px;
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+}
+.boxx::before {
+    content: '';
+    position: absolute;
+    width: 1500px;
+    height: 62px;
+    margin-left: -400px;
+    margin-top: -1px;
+    background: linear-gradient(rgb(124, 0, 0),red);
+    animation: animate 3.5s linear infinite;
+}
+.boxx::after {
+    content: '';
+    position: absolute;
+    inset: 5px;
+    background-color: rgb(26, 26, 26);
+}
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.boxx h2 {
+    font-size: 35px;
+    color: white;
+    position: relative;
+    z-index: 10;
+    font-weight: bold;
+}
+section {
+    height: 120vh;
+    position: relative;
+}
+#section1 {
+    background: rgb(255, 255, 255);
+}
+.hehe {
+    flex: 1;
+    text-align: left;
+    
+}
+.hehe ul div {
+    list-style: none;
+    display: inline-block;
+    align-items: center;
+    text-align: left;
+    margin: 30px 50px;
+    background: linear-gradient(rgb(0, 86, 199),rgb(0, 167, 111));
+    border-radius: 10%;
+    padding: 20px;
+}
+.hehe ul div img {
+    width: 170px;
+}
+.weekdays h3 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 27px;
+}
+.weekdays p{
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+}
+.weekdays span {
+    text-align: left;
+    color: white;
+    font-size: 17px;
+}
+.weekends h4 {
+    text-align: center;
+    color: white;
+    font-size: 27px;
+}
+.weekends p {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+}
+.weekends span {
+    color: white;
+    font-size: 17px;
+}
+.weekends h5 {
+    text-align: right;
+    color: white;
+    font-size: 10px;
+}
+.yeah {
+    background-color: rgb(26, 26, 26);
+    padding-left: 190px;
+    padding-top: 4px;
+    margin-right: 250px;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+}
+.yeah::before {
+    content: '';
+    position: absolute;
+    width: 1500px;
+    height: 62px;
+    margin-left: -400px;
+    margin-top: -1px;
+    background: linear-gradient(rgb(124, 0, 0),red);
+    animation: animate 3.5s linear infinite;
+}
+.yeah::after {
+    content: '';
+    position: absolute;
+    inset: 5px;
+    background-color: rgb(26, 26, 26);
+}
+.yeah h6 {
+    font-size: 35px;
+    color: white;
+    position: relative;
+    z-index: 10;
+    font-weight: bold;
+}
+.meoww img{
+    width: 150px;
+    align-items: center;
+    text-align: center;
+    margin: 30px 15px;
+    margin-left: 23px;
+}
+.meoww{
+    background: linear-gradient(to right, rgb(187,187,187),white);
+    border: 10px solid rgb(66, 66, 66);
+    align-items: center;
+    position: relative;
+    display: flex;
+}
